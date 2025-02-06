@@ -6,7 +6,7 @@ const Body = () => {
     <div>
       <NavBar/>
       {/* without this navbar , no children component of body will be rendered */}
-      <Outlet/>
+      <Outlet/> 
     </div>
   )
 }
